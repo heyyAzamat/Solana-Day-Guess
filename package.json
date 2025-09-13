@@ -1,0 +1,29 @@
+{
+    "name": "datadna-telegram-bot",
+    "version": "1.0.0",
+    "description": "DataDNA Telegram Bot for file verification",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js",
+        "dev": "nodemon bot.js"
+    },
+    "dependencies": {
+        "@solana/web3.js": "^1.98.4",
+        "crypto": "^1.0.1",
+        "dotenv": "^17.2.2",
+        "node-fetch": "^2.6.7",
+        "telegraf": "^4.16.3"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "keywords": [
+        "telegram",
+        "bot",
+        "datadna",
+        "blockchain",
+        "verification"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+}
